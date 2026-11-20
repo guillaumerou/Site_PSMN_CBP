@@ -16,7 +16,7 @@ author = "PSMN's Staff"
 extensions = ['sphinxcontrib.newsfeed']
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', '_themes', '**/.DS_Store']
 
 language = 'fr'
 
@@ -24,5 +24,6 @@ language = 'fr'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'CBPSMN'
+html_theme_path = ['_themes']
 html_static_path = ['_static']
 html_context = { "css_files": []}
