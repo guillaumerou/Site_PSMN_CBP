@@ -746,13 +746,15 @@ body.dark #menu{
     padding: 10px 20px;
     border: 2px solid #E69645;
     background: #E69645;
-    color: #FFF;
+    color: #000;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .hero-bouton:hover, .hero-bouton:focus-visible{
     background: transparent;
     color: #FFF;
+    text-decoration: none;
 }
 
 #logo-bandeau {
