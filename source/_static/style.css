@@ -238,7 +238,7 @@ a:hover{
 
 /*---------- Titre ----------*/
 
-h1{
+h1, #titre-site {
     font-size: 2rem;
     margin-bottom: 1rem !important;
 font-family: "bebas_neue", arial, sans-serif;
@@ -295,6 +295,12 @@ h5{
     flex-direction: column;
     justify-content: center;   
 }
+
+#accueil h1 {
+    display: none;
+}
+
+
 /*---------- Tableau ----------*/
 
 table{
